@@ -9,3 +9,5 @@ void AddFrontNode(Node**Head,int NewData);
 void AddTailNode(Node**Head,int NewData);
 void AddNode(Node**Head,int NewData,int Position);
 void DeleteNode(Node**Head,int Position);
+int ListLenght(Node*Head);
+
