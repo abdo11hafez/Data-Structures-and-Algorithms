@@ -112,7 +112,7 @@ void DeleteNode(Node**Head,int Position)
 
 }
 
-int ListLenght(Node*Head)
+int ListLength(Node*Head)
 {
     int i=0;
     while(Head!=NULL)
