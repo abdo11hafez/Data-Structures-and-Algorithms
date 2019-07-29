@@ -111,3 +111,15 @@ void DeleteNode(Node**Head,int Position)
     }
 
 }
+
+int ListLenght(Node*Head)
+{
+    int i=0;
+    while(Head!=NULL)
+    {
+        Head=Head->next;
+        i++;
+    }
+    return i;
+}
+
